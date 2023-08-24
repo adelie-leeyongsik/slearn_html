@@ -1,0 +1,1 @@
+import e from"./_excellentItem.f20d2a47.js";import{c as t,a as o,b as s,o as a}from"./entry.e1c54084.js";const c={class:"mentoring"},n={class:"mentoring-excellent"},l={__name:"index",setup(r){return(_,i)=>(a(),t("div",c,[o("div",n,[s(e)])]))}};export{l as default};

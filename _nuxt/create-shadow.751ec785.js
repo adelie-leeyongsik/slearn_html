@@ -1,0 +1,1 @@
+import{f as t,c as n}from"./core.5e522b93.js";function d(l,r,a){const s=`swiper-slide-shadow${a?`-${a}`:""}`,o=t(r);let e=o.querySelector(`.${s}`);return e||(e=n("div",`swiper-slide-shadow${a?`-${a}`:""}`),o.append(e)),e}export{d as c};

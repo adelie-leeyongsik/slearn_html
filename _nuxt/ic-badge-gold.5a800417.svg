@@ -1,0 +1,13 @@
+<svg width="92" height="132" viewBox="0 0 92 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 0h66v17.727L46 40 13 17.727V0z" fill="#DEDEDE"/>
+    <mask id="dkik3b0cva" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="13" y="0" width="66" height="41">
+        <path d="M13.736 0H78.98v17.892L46.358 40.355 13.736 17.892V0z" fill="#DEDEDE"/>
+    </mask>
+    <g mask="url(#dkik3b0cva)">
+        <path fill="#F1F1F1" d="M33.864-54.406h24.987v94.759H33.864z"/>
+    </g>
+    <rect x="40" y="28" width="12" height="18" rx="6" fill="#FFB73E"/>
+    <ellipse cx="46" cy="87" rx="46" ry="45" fill="#FFB73E"/>
+    <ellipse cx="46" cy="87" rx="36" ry="35" fill="#000" fill-opacity=".2"/>
+    <path d="m46.5 64 6.833 14L67 79.75l-9.384 10.78 2.55 15.47L46.5 99l-13.667 7 2.574-15.47L26 79.75 39.667 78 46.5 64z" fill="#fff"/>
+</svg>

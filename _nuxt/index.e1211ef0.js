@@ -1,0 +1,1 @@
+import{j as o,g as t,l as s,as as a,at as n}from"./entry.e1c54084.js";const d={__name:"index",setup(r){const e=o();return t(()=>{s.isEmpty(e.query.code)?(a("snsCode"),self.close()):(n("snsCode",s.isEmpty(e.query.code)?"":e.query.code),self.close())}),(u,c)=>null}};export{d as default};

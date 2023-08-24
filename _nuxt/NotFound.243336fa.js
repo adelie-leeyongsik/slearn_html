@@ -1,0 +1,1 @@
+import{_ as e}from"./ch-nodata.e12229c9.js";import{_ as s,o as t,c as _,aa as c,a as n}from"./entry.e1c54084.js";const a={},r={class:"c-notfound"},l=n("img",{src:e,alt:"데이터 없음"},null,-1);function d(o,i){return t(),_("div",r,[l,c(o.$slots,"default")])}const p=s(a,[["render",d]]);export{p as _};

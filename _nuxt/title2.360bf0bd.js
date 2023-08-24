@@ -1,0 +1,1 @@
+import{_ as s,o as c,c as a,a as t,t as o}from"./entry.e1c54084.js";const _={props:["title"],data(){return{}}},r={class:"c-sub-header__wrap"},n={class:"c-sub-header c-sub-header--type02"},i={class:"c-text-title-lg"};function d(p,l,e,u,h,f){return c(),a("div",r,[t("div",n,[t("div",i,o(e.title),1)])])}const x=s(_,[["render",d]]);export{x as _};

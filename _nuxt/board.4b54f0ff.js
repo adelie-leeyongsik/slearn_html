@@ -1,0 +1,1 @@
+import{_ as n}from"./Header.5532b68a.js";import{_ as c}from"./page.c303be4d.js";import{_ as s}from"./Footer.a0b253ad.js";import{_ as a,c as r,b as o,a as m,o as d}from"./entry.e1c54084.js";const p={},i={class:"c-page--board"},f={id:"c-contents"};function u(x,l){const _=n,e=c,t=s;return d(),r("div",i,[o(_),m("div",f,[o(e)]),o(t)])}const B=a(p,[["render",u]]);export{B as default};

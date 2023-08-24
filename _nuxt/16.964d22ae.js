@@ -1,0 +1,1 @@
+import{c as e,o as t,a as s}from"./entry.e1c54084.js";const o=""+new URL("16.7c4eac93.png",import.meta.url).href,c={class:"temp"},a=s("img",{src:o,alt:""},null,-1),_=[a],i={__name:"16",setup(r){return(n,m)=>(t(),e("div",c,_))}};export{i as default};

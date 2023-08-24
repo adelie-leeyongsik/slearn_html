@@ -1,0 +1,1 @@
+import{_ as n}from"./Header.5532b68a.js";import{_ as c}from"./page.c303be4d.js";import{_ as s}from"./Footer.a0b253ad.js";import{_ as a,c as r,b as e,a as m,o as p}from"./entry.e1c54084.js";const d={},i={class:"c-page--event"},f={id:"c-contents"};function u(x,l){const o=n,t=c,_=s;return p(),r("div",i,[e(o),m("div",f,[e(t)]),e(_)])}const N=a(d,[["render",u]]);export{N as default};

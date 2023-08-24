@@ -1,0 +1,1 @@
+import{_ as o}from"./page.c303be4d.js";import{_ as t,c,a as n,b as s,o as a}from"./entry.e1c54084.js";const _={},r={class:"c-page--blank"},d={id:"c-contents"};function i(m,p){const e=o;return a(),c("div",r,[n("div",d,[s(e)])])}const u=t(_,[["render",i]]);export{u as default};

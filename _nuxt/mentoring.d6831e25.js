@@ -1,0 +1,1 @@
+import{_}from"./Header.5532b68a.js";import{_ as c}from"./page.c303be4d.js";import{_ as s}from"./Footer.a0b253ad.js";import{_ as r,c as a,b as o,a as m,o as i}from"./entry.e1c54084.js";const p={},d={class:"c-page--mentoring"},f={id:"c-contents"};function u(x,l){const e=_,t=c,n=s;return i(),a("div",d,[o(e),m("div",f,[o(t)]),o(n)])}const N=r(p,[["render",u]]);export{N as default};

@@ -1,0 +1,1 @@
+import{_ as n}from"./Header.5532b68a.js";import{_ as c}from"./page.c303be4d.js";import{_ as s}from"./Footer.a0b253ad.js";import{_ as a,c as r,b as o,a as m,o as p}from"./entry.e1c54084.js";const d={},f={class:"c-page--faq"},i={id:"c-contents"};function u(x,l){const _=n,e=c,t=s;return p(),r("div",f,[o(_),m("div",i,[o(e)]),o(t)])}const B=a(d,[["render",u]]);export{B as default};
