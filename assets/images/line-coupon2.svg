@@ -1,9 +1,0 @@
-<svg width="99" height="170" viewBox="0 0 99 170" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <mask id="m5bre1zr1a" fill="#fff">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.983 0A7.5 7.5 0 0 1 2.016 0H0v170h2.15a7.503 7.503 0 0 1 14.7 0H91a8 8 0 0 0 8-8V8a8 8 0 0 0-8-8H16.983z"/>
-    </mask>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.983 0A7.5 7.5 0 0 1 2.016 0H0v170h2.15a7.503 7.503 0 0 1 14.7 0H91a8 8 0 0 0 8-8V8a8 8 0 0 0-8-8H16.983z" fill="#F6F6F6"/>
-    <path d="M16.983 0v-1h-.936l-.061.934.997.066zM2.016 0l.998-.066L2.953-1h-.937v1zM0 0v-1h-1v1h1zm0 170h-1v1h1v-1zm2.15 0v1h.817l.163-.801-.98-.199zm14.7 0-.98.199.162.801h.818v-1zM9.5 8A8.5 8.5 0 0 0 17.98.066l-1.995-.132A6.5 6.5 0 0 1 9.5 6v2zM1.018.066A8.5 8.5 0 0 0 9.5 8V6A6.5 6.5 0 0 1 3.014-.066L1.02.066zM0 1h2.016v-2H0v2zm1 169V0h-2v170h2zm1.15-1H0v2h2.15v-2zm7.35-6a8.503 8.503 0 0 0-8.33 6.801l1.96.398A6.502 6.502 0 0 1 9.5 165v-2zm8.33 6.801A8.503 8.503 0 0 0 9.5 163v2a6.502 6.502 0 0 1 6.37 5.199l1.96-.398zM91 169H16.85v2H91v-2zm7-7a7 7 0 0 1-7 7v2a9 9 0 0 0 9-9h-2zM98 8v154h2V8h-2zm-7-7a7 7 0 0 1 7 7h2a9 9 0 0 0-9-9v2zM16.983 1H91v-2H16.983v2z" fill="#DEDEDE" mask="url(#m5bre1zr1a)"/>
-    <path d="M0 1h1v168H0V1z" fill="#F6F6F6"/>
-    <path stroke="#DEDEDE" stroke-width="2" stroke-dasharray="4 4" d="M9.605 12v146"/>
-</svg>
