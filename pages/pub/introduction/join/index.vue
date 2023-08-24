@@ -1,0 +1,293 @@
+<script setup>
+definePageMeta({
+  layout: "introduction",
+});
+</script>
+<template>
+  <div class="introduction">
+    <div class="introduction-join">
+      <div class="introduction__head">
+        <div class="c-text-title c-text-title-lg c-text-center">
+          회원가입 소개
+        </div>
+        <div class="introduction__title">
+          차근차근 따라하면<br />금방 서울런 회원이 될 수 있어요
+        </div>
+      </div>
+      <div class="introduction__contents">
+        <form action="">
+          <fieldset>
+            <legend>
+              <div class="introduction__contents-title">
+                혜택 대상자 확인하기
+              </div>
+            </legend>
+            <div class="introduction__search">
+              <div class="c-form-group">
+                <label for="name" class="c-form-label">이름</label>
+                <input
+                  id="name"
+                  type="text"
+                  class="c-form-control"
+                  placeholder="이름을 입력해 주세요"
+                />
+              </div>
+              <div class="c-form-group">
+                <label for="rrn" class="c-form-label">주민번호</label>
+                <div class="c-input-group">
+                  <input
+                    id="rrn"
+                    class="c-form-control"
+                    type="text"
+                    placeholder="주민번호 앞 6자리"
+                    maxlength="6"
+                    required
+                  />
+                  -
+                  <input
+                    id="rrn02"
+                    class="c-form-control"
+                    type="password"
+                    placeholder="주민번호 뒤 7자리"
+                    maxlength="7"
+                    required
+                  />
+                </div>
+              </div>
+              <button class="c-btn c-btn-lg">확인</button>
+            </div>
+          </fieldset>
+        </form>
+
+        <div class="introduction__contents-title">회원가입 방법</div>
+        <div class="introduction__body">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>1. 회원가입 버튼을 클릭합니다.</p>
+              <ul class="c-text-danger">
+                <li><span>1</span> 회원가입 버튼을 클립합니다</li>
+              </ul>
+            </div>
+            <div class="introduction__body-img">
+              <img
+                src="@img/introduction01.png"
+                alt="회원가입 버튼 위치 설명 이미지"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="introduction__body">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>2. 회원 유형을 선택합니다.</p>
+              <ul class="c-text-danger">
+                <li><span>1</span> 회원가입 버튼을 클립합니다</li>
+              </ul>
+            </div>
+            <div class="introduction__body-img">
+              <img
+                src="@img/introduction02.png"
+                alt="회원가입 버튼 클릭 이미지"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="introduction__body">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>3. 아이디 형태를 선택합니다.</p>
+              <ul>
+                <li><span>1</span> 아이디 형태를 선택합니다.</li>
+                <li><span>2</span> 아이디 형태를 선택합니다.</li>
+                <li><span>3</span> 아이디 형태를 선택합니다.</li>
+              </ul>
+            </div>
+            <div class="introduction__body-img">
+              <img
+                src="@img/introduction03.png"
+                alt="아이디 형태 선택 이미지"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="introduction__body">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>4. 본인인증을 진행합니다.</p>
+              <ul>
+                <li><span>1</span> 본인인증을 진행합니다.</li>
+                <li><span>2</span> 본인인증을 진행합니다.</li>
+                <li><span>3</span> 본인인증을 진행합니다.</li>
+              </ul>
+            </div>
+            <div class="introduction__body-img">
+              <img src="@img/introduction04.png" alt="본인인증 이미지" />
+            </div>
+          </div>
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <ul>
+                <li><span>4</span> 본인인증을 진행합니다.</li>
+                <li><span>5</span> 본인인증을 진행합니다.</li>
+                <li><span>6</span> 본인인증을 진행합니다.</li>
+              </ul>
+            </div>
+            <div class="introduction__body-img">
+              <img src="@img/introduction05.png" alt="본인인증 이미지2" />
+            </div>
+          </div>
+        </div>
+
+        <div class="introduction__body">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>
+                5. 회원정보를 입력하고 혜택 대상자의<br />경우 증빙자료를
+                준비하여 첨부합니다.
+              </p>
+              <ul>
+                <li><span>1</span> 혜택대상자의 경우 증빙자료를 준비한다.</li>
+                <li><span>2</span> 증빙자료를 첨부한다.</li>
+              </ul>
+            </div>
+            <div class="introduction__body-img">
+              <img
+                src="@img/introduction06.png"
+                alt="회원정보입력, 증빙자료 첨부 이미지"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="introduction__body introduction__body--type02">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>수급권자, 차상위계층, 법정 한부모가족 청소년</p>
+              <ul>
+                <li><span>1</span> 실시간 온라인 자격검증 서비스 (서울거주)</li>
+                <li>
+                  <span>2</span> 증빙자료 업로드 (문자, 이메일 가능)
+                  <img
+                    src="@img/introduction07.png"
+                    alt="증빙자료 업로드 이미지"
+                  />
+                </li>
+                <li><span>3</span> 자료 검토 및 승인</li>
+                <li><span>4</span> 결과 문자 전송</li>
+              </ul>
+            </div>
+          </div>
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>학교 밖 청소년</p>
+              <ul>
+                <li><span>1</span> 회원가입시 증빙 서류 제출</li>
+                <li>
+                  <span>2</span> 증빙서류 제출
+                  <img
+                    src="@img/introduction08.png"
+                    alt="학교 밖 청소년 증빙서류 제출 이미지"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>다문화가족 청소년</p>
+              <ul>
+                <li><span>1</span> 회원가입시 증빙 서류 제출</li>
+                <li>
+                  <span>2</span> 증빙서류 제출
+                  <img
+                    src="@img/introduction09.png"
+                    alt="다문화가족 청소년 증빙서류 제출 이미지"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>북한이탈주민 청소년</p>
+              <ul>
+                <li><span>1</span> 회원가입시 증빙 서류 제출</li>
+                <li>
+                  <span>2</span> 증빙서류 제출
+                  <img
+                    src="@img/introduction10.png"
+                    alt="북한이탈주민 청소년 증빙자료 제출 이미지"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="introduction__body">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>6. 학습 사이트를 선택합니다.</p>
+              <ul>
+                <li><span>1</span> 학습사이트를 선택합니다.</li>
+                <li><span>2</span> 학습사이트를 선택합니다.</li>
+                <li><span>3</span> 학습사이트를 선택합니다.</li>
+              </ul>
+              <a href="">온라인 컨텐츠 소개 보러가기</a>
+            </div>
+            <div class="introduction__body-img">
+              <img src="@img/introduction11.png" alt="학습사이트 선택 이미지" />
+            </div>
+          </div>
+        </div>
+        <div class="introduction__body">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>7. 멘토링 정보를 입력합니다.</p>
+              <ul>
+                <li><span>1</span> 멘토링을 신청합니다.</li>
+              </ul>
+              <a href="">멘토링 소식 보러가기</a>
+            </div>
+            <div class="introduction__body-img">
+              <img
+                src="@img/introduction12.png"
+                alt="멘토링 정보 입력 이미지"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="introduction__body">
+          <div class="introduction__body-item">
+            <div class="introduction__body-text">
+              <p>8. 가입완료이 완료되었습니다.</p>
+            </div>
+            <div class="introduction__body-img">
+              <img
+                src="@img/introduction13.png"
+                alt="멘토링 정보 입력 이미지"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="introduction__contents-title introduction__contents-title--type02"
+        >
+          가입 진행 중 어려움을 느끼셨다면?
+        </div>
+        <div class="introduction__box">
+          <nav>
+            <a href="">
+              <img src="@img/ic-introduction01.svg" alt="" /> 고객센터</a
+            >
+            <a href="">
+              <img src="@img/ic-introduction02.svg" alt="" />카카오톡 및
+              챗봇상담</a
+            >
+            <a href="">
+              <img src="@img/ic-introduction03.svg" alt="" />원격제어 서비스</a
+            >
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

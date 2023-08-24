@@ -1,0 +1,45 @@
+@스토어
+	faq
+		catItems: {},
+		catKeys: [],
+		items
+		keys
+		searched: {
+			allItems: {
+				FAQ_CAT_0: [ 0, 1, 2, 3 ],
+				FAQ_CAT_1: [ 4, 5, 6, 7 ],
+			}
+		}
+
+@API
+	getFaqList()
+	getFaqSearch()
+
+@필수 확인
+	import.meta.url -> SSR(Nuxt)에서 사용한 경우 제대로 작동하는지 확인
+		https://vitejs-kr.github.io/guide/assets.html#the-public-directory
+
+@pub URL
+	http://slearn.adelie.synology.me/
+
+@네비게이션 가드
+	beforeRouteLeave -> 컴포넌트
+	beforeEach -> global router
+	beforeRouteUpdate -> 컴포넌트(사용 케이스 확인해보기)
+	beforeEnter -> local router
+	beforeRouteEnter -> 컴포넌트
+	beforeResolve -> global router
+	(네비게이션 완료)
+	afterEach -> global router
+
+@모드별 패스 설정
+	https://stackoverflow.com/questions/69531394/how-can-i-exclude-a-vue-folder-from-being-build-in-vite
+
+@scoped 스타일 자식 요소에 적용하기
+	https://vue-loader.vuejs.org/guide/scoped-css.html#mixing-local-and-global-styles
+
+@레이아웃 구현, 비동기 컴포넌트
+	https://stackblitz.com/edit/vitejs-vite-jyqcja?file=src%2FApp.vue&terminal=dev
+
+@인증 로그인 관련
+	vue auth -> 키워드 검색

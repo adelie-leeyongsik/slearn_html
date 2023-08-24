@@ -1,0 +1,778 @@
+<script setup>
+import SubTitle from "../_snbtitle.vue";
+import Snb from "../_snb.vue";
+definePageMeta({
+  layout: "interest",
+});
+</script>
+<script>
+import swiperItem1 from "./swiperItem1";
+import swiperItem2 from "./swiperItem2";
+</script>
+<template>
+  <div class="interest">
+    <PubTitle
+      title="서울런과 함께 내 관심사를 찾아보세요"
+      sub="나에게 맞는 맞춤형 학습을 알려주고 스스로 공부할 수 있게 도와주는 서비스입니다."
+    />
+    <div class="interest-body">
+      <div class="interest__inner">
+        <div class="interest__wrap chatting">
+          <Snb />
+          <div class="interest__contents">
+            <div class="interest__contents-body">
+              <div class="interest__chatting">
+                <div class="interest__chatting-list">
+                  <div class="interest__chatting-item c-flex manager">
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/1.jpg" alt="" />
+                    </div>
+                    <div class="interest__chatting-message">
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>
+                                안녕하세요 서울런 입니다.<br />
+                                관심사에 맞는 컨텐츠를 추천해 드릴께요.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>아래 추천 방식을 선택해주세요.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <div class="interest-item__chips c-flex">
+                                <!-- 23.07.05 수정 -->
+                                <a href="#" class="c-chips--sm"
+                                  ># 세대별 관심 추천</a
+                                >
+                                <a href="#" class="c-chips--sm"
+                                  ># 관련 이미지 추천</a
+                                >
+                                <a href="#" class="c-chips--sm"
+                                  ># 관심 분야 선택 추천</a
+                                >
+                                <!--// 23.07.05 수정 -->
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="interest__chatting-item c-flex user">
+                    <div class="interest__chatting-message">
+                      <div class="c-message c-message--user">
+                        <div class="c-message--cont">
+                          <p>세대별 관심사로 추천해줘.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/2.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="interest__chatting-item c-flex manager">
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/1.jpg" alt="" />
+                    </div>
+                    <div class="interest__chatting-message">
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>
+                                선택하신 세대가 좋아하는 관심 컨텐츠를 추천해
+                                드릴게요.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>
+                                먼저 20대 남성이 가장 좋아하는 강좌를 추천
+                                드려요.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>총 <strong>6개</strong> 입니다.</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="interest__chatting-slide">
+                    <!-- 23.07.06 슬라이드 수정 -->
+                    <div class="c-slide-box"><swiperItem1 /></div>
+                    <div class="c-slide-box"><swiperItem1 /></div>
+                    <div class="c-slide-box"><swiperItem1 /></div>
+                    <!--// 23.07.06 슬라이드 수정 -->
+                    <dl class="c-form-group--like">
+                      <dt>추천 결과가 마음에 드시나요?</dt>
+                      <dd class="c-form-group">
+                        <label for="name" class="c-form-label">
+                          추천결과응답
+                        </label>
+                        <div class="c-form-check">
+                          <input
+                            class="c-form-radio-input"
+                            type="radio"
+                            name="like"
+                            id="likeYes"
+                            value="Yes"
+                          />
+                          <label
+                            class="c-btn c-btn-sm c-btn-sm--round"
+                            for="likeYes"
+                            >예</label
+                          >
+                        </div>
+                        <div class="c-form-check">
+                          <input
+                            class="c-form-radio-input"
+                            type="radio"
+                            name="like"
+                            id="likeNo"
+                            value="No"
+                            checked
+                          />
+                          <label
+                            class="c-btn c-btn-sm c-btn-sm--round"
+                            for="likeNo"
+                            >아니요</label
+                          >
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                  <div class="interest__chatting-item c-flex manager">
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/1.jpg" alt="" />
+                    </div>
+                    <div class="interest__chatting-message">
+                      <div class="c-message c-message--manager">
+                        <div class="c-message--cont c-text-center">
+                          <p>좋은 강의를 다른사람에게 추천해보세요.</p>
+                          <div class="c-btn-group">
+                            <button class="c-btn c-btn-sm c-btn-primary">
+                              강의 추천
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="interest__chatting-item c-flex user">
+                    <div class="interest__chatting-message">
+                      <div class="c-message c-message--user">
+                        <div class="c-message--cont">
+                          <p>더 보여줘.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/2.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="interest__chatting-item c-flex manager">
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/1.jpg" alt="" />
+                    </div>
+                    <div class="interest__chatting-message">
+                      <div class="c-message c-message--manager">
+                        <div class="c-message--cont">
+                          <p>총 <strong>6개</strong> 입니다.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="interest__chatting-slide">
+                    <!-- 23.07.06 슬라이드 수정 -->
+                    <div class="c-slide-box"><swiperItem1 /></div>
+                    <div class="c-slide-box"><swiperItem1 /></div>
+                    <div class="c-slide-box"><swiperItem1 /></div>
+                    <!--// 23.07.06 슬라이드 수정 -->
+                    <dl class="c-form-group--like">
+                      <dt>추천 결과가 마음에 드시나요?</dt>
+                      <dd class="c-form-group">
+                        <label for="name" class="c-form-label">
+                          추천결과응답
+                        </label>
+                        <div class="c-form-check">
+                          <input
+                            class="c-form-radio-input"
+                            type="radio"
+                            name="like2"
+                            id="likeYes2"
+                            value="Yes"
+                          />
+                          <label
+                            class="c-btn c-btn-sm c-btn-sm--round"
+                            for="likeYes2"
+                            >예</label
+                          >
+                        </div>
+                        <div class="c-form-check">
+                          <input
+                            class="c-form-radio-input"
+                            type="radio"
+                            name="like2"
+                            id="likeNo2"
+                            value="No"
+                            checked
+                          />
+                          <label
+                            class="c-btn c-btn-sm c-btn-sm--round"
+                            for="likeNo2"
+                            >아니요</label
+                          >
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                  <div class="interest__chatting-item c-flex manager">
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/1.jpg" alt="" />
+                    </div>
+                    <div class="interest__chatting-message">
+                      <div class="c-message c-message--manager">
+                        <div class="c-message--cont c-text-center">
+                          <p>좋은 강의를 다른사람에게 추천해보세요.</p>
+                          <div class="c-btn-group">
+                            <button class="c-btn c-btn-sm c-btn-primary">
+                              강의 추천
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="interest__chatting-item c-flex user">
+                    <div class="interest__chatting-message">
+                      <div class="c-message c-message--user">
+                        <div class="c-message--cont">
+                          <p>‘해커스’ 강의 추천해줘.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/2.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="interest__chatting-item c-flex manager">
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/1.jpg" alt="" />
+                    </div>
+                    <div class="interest__chatting-message">
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>현재 학습을 토대로 과목을 추천해드립니다.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>총 <strong>5개</strong> 입니다.</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="interest__chatting-slide">
+                    <!-- 23.07.06 슬라이드 수정 -->
+                    <div class="c-slide-box">
+                      <swiperItem2 />
+                    </div>
+                    <!--// 23.07.06 슬라이드 수정 -->
+                    <dl class="c-form-group--like">
+                      <dt>추천 결과가 마음에 드시나요?</dt>
+                      <dd class="c-form-group">
+                        <label for="name" class="c-form-label">
+                          추천결과응답
+                        </label>
+                        <div class="c-form-check">
+                          <input
+                            class="c-form-radio-input"
+                            type="radio"
+                            name="like3"
+                            id="likeYes3"
+                            value="Yes"
+                          />
+                          <label
+                            class="c-btn c-btn-sm c-btn-sm--round"
+                            for="likeYes3"
+                            >예</label
+                          >
+                        </div>
+                        <div class="c-form-check">
+                          <input
+                            class="c-form-radio-input"
+                            type="radio"
+                            name="like3"
+                            id="likeNo3"
+                            value="No"
+                            checked
+                          />
+                          <label
+                            class="c-btn c-btn-sm c-btn-sm--round"
+                            for="likeNo3"
+                            >아니요</label
+                          >
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                  <div class="interest__chatting-item c-flex user">
+                    <div class="interest__chatting-message">
+                      <div class="c-message c-message--user">
+                        <div class="c-message--cont">
+                          <p>인기순으로 보여줘.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/2.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="interest__chatting-item c-flex manager">
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/1.jpg" alt="" />
+                    </div>
+                    <div class="interest__chatting-message">
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>추천 드린 강의를 인기순으로 정렬합니다.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>총 <strong>5개</strong> 입니다.</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="interest__chatting-slide">
+                    <!-- 23.07.06 슬라이드 수정 -->
+                    <div class="c-slide-box">
+                      <swiperItem2 />
+                    </div>
+                    <!--// 23.07.06 슬라이드 수정 -->
+                    <dl class="c-form-group--like">
+                      <dt>추천 결과가 마음에 드시나요?</dt>
+                      <dd class="c-form-group">
+                        <label for="name" class="c-form-label">
+                          추천결과응답
+                        </label>
+                        <div class="c-form-check">
+                          <input
+                            class="c-form-radio-input"
+                            type="radio"
+                            name="like4"
+                            id="likeYes4"
+                            value="Yes"
+                          />
+                          <label
+                            class="c-btn c-btn-sm c-btn-sm--round"
+                            for="likeYes4"
+                            >예</label
+                          >
+                        </div>
+                        <div class="c-form-check">
+                          <input
+                            class="c-form-radio-input"
+                            type="radio"
+                            name="like4"
+                            id="likeNo4"
+                            value="No"
+                            checked
+                          />
+                          <label
+                            class="c-btn c-btn-sm c-btn-sm--round"
+                            for="likeNo4"
+                            >아니요</label
+                          >
+                        </div>
+                      </dd>
+                    </dl>
+                  </div>
+                  <div class="interest__chatting-item c-flex user">
+                    <div class="interest__chatting-message">
+                      <div class="c-message c-message--user">
+                        <div class="c-message--cont">
+                          <p>세대별 관심사로 추천해줘.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/2.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="interest__chatting-item c-flex manager">
+                    <div class="interest__chatting-profile">
+                      <img src="@img/@temp/1.jpg" alt="" />
+                    </div>
+                    <div class="interest__chatting-message">
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>
+                                선택하신 세대가 좋아하는 관심 컨텐츠를 추천해
+                                드릴게요.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>먼저 연령대를 선택해주세요.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <div class="interest-item__chips">
+                                <!-- 23.07.05 수정 -->
+                                <a href="#" class="c-chips--sm"># 초등</a>
+                                <a href="#" class="c-chips--sm"># 중등</a>
+                                <a href="#" class="c-chips--sm active"
+                                  ># 고등</a
+                                >
+                                <br class="c-pc" />
+                                <a href="#" class="c-chips--sm"># 20대</a>
+                                <a href="#" class="c-chips--sm"># 30대</a>
+                                <a href="#" class="c-chips--sm"># 40대</a>
+                                <a href="#" class="c-chips--sm"># 50대</a>
+                                <!--// 23.07.05 수정 -->
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>성별을 선택해 주세요.</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <div class="interest-item__chips">
+                                <!-- 23.07.05 수정 -->
+                                <a href="#" class="c-chips--sm active"
+                                  ># 여성</a
+                                >
+                                <a href="#" class="c-chips--sm"># 남성</a>
+                                <!--// 23.07.05 수정 -->
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>
+                                “20대 여성”의 선호 컨텐츠를 추천해 드립니다.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>
+                                <span class="c-loading">
+                                  <i class="ico ico-dot"></i>
+                                  <i class="ico ico-dot"></i>
+                                  <i class="ico ico-dot"></i>
+                                </span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>총 <strong>6개</strong> 입니다.</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <div class="c-form-group c-flex">
+                                <select class="c-form-control">
+                                  <option>대분류 선택해 주세요.</option>
+                                </select>
+                                <select class="c-form-control">
+                                  <option>중분류 선택해주세요.</option>
+                                </select>
+                                <button class="c-btn c-btn-primary">
+                                  선택완료
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>선택 가능한 지역입니다.(다중 선택 가능)</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <div class="interest-item__chips">
+                                <!-- 23.07.05 수정 -->
+                                <a href="#" class="c-chips--sm active"
+                                  ># 강남구</a
+                                >
+                                <a href="#" class="c-chips--sm active"
+                                  ># 강동구</a
+                                >
+                                <a href="#" class="c-chips--sm"># 강북구</a>
+                                <a href="#" class="c-chips--sm"># 강서구</a>
+                                <a href="#" class="c-chips--sm"># 관악구</a>
+                                <br class="c-pc" />
+                                <a href="#" class="c-chips--sm"># 구로구</a>
+                                <a href="#" class="c-chips--sm"># 금천구</a>
+                                <a href="#" class="c-chips--sm active"
+                                  ># 노원구</a
+                                >
+                                <a href="#" class="c-chips--sm"># 도봉구</a>
+                                <a href="#" class="c-chips--sm"># 동대문구</a>
+                                <br class="c-pc" />
+                                <a href="#" class="c-chips--sm"># 동작구</a>
+                                <a href="#" class="c-chips--sm"># 마포구</a>
+                                <a href="#" class="c-chips--sm"># 서대문구</a>
+                                <a href="#" class="c-chips--sm active"
+                                  ># 서초구</a
+                                >
+                                <a href="#" class="c-chips--sm"># 성동구</a>
+                                <br class="c-pc" />
+                                <a href="#" class="c-chips--sm"># 성북구</a>
+                                <a href="#" class="c-chips--sm"># 송파구</a>
+                                <a href="#" class="c-chips--sm"># 양천구</a>
+                                <a href="#" class="c-chips--sm"># 영등포구</a>
+                                <a href="#" class="c-chips--sm"># 용산구</a>
+                                <br class="c-pc" />
+                                <a href="#" class="c-chips--sm"># 은평구</a>
+                                <a href="#" class="c-chips--sm active"
+                                  ># 종로구</a
+                                >
+                                <a href="#" class="c-chips--sm"># 중구</a>
+                                <a href="#" class="c-chips--sm"># 중랑구</a>
+                                <a href="#" class="c-chips--sm"># 서울 외</a>
+                                <!--// 23.07.05 수정 -->
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont c-text-center">
+                              <p>
+                                선택한 지역은 [강남구] [강동구] [노원구]
+                                [서초구] [종로구] 입니다.
+                              </p>
+                              <div class="c-btn-group">
+                                <button class="c-btn c-btn-sm c-btn-primary">
+                                  선택 완료 했어요
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>
+                                아쉽게도 검색하신 지역에 해당 하는 컨텐츠가
+                                없습니다.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont c-text-center">
+                              <p>다시 원하는 지역으로 검색할 수 있습니다.</p>
+                              <div class="c-btn-group">
+                                <button class="c-btn c-btn-sm c-btn-primary">
+                                  지역 선택 하기
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont c-text-center">
+                              <p>선택한 지역은 없습니다.</p>
+                              <div class="c-btn-group">
+                                <button class="c-btn c-btn-sm c-btn-primary">
+                                  선택 완료 했어요
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont">
+                              <p>서울런 고객 센터 안내</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont c-text-left">
+                              <p>고객센터 전화 문의 가능해요!</p>
+                              <div class="c-text-title-lg">1533-0909</div>
+                              <p>
+                                <span>평 일 10:00 ~ 21:00</span>
+                                <span
+                                  >(공휴일, 주말 제외, 점심시간 12:00 ~
+                                  13:00)</span
+                                >
+                              </p>
+                              <div class="c-message--foot">
+                                <a href="">
+                                  <img src="@img/ic-kakao-talk.png" alt="" />
+                                </a>
+                                <a href="">
+                                  <img src="@img/ic-youtube.png" alt="" />
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="c-message c-message--manager">
+                            <div class="c-message--cont c-text-center">
+                              <p>시스템 사용이 어려울 때</p>
+                              <div class="c-btn-group">
+                                <button class="c-btn c-btn-sm c-btn-primary">
+                                  원격지원 신청
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="interest__chatting-foot">
+                  <div class="interest__chatting-foot--box">
+                    <div class="interest-item__chips">
+                      <!-- 23.07.05 수정 -->
+                      <a href="#" class="c-chips--sm c-btn-primary">
+                        처음으로
+                        <i class="ico ico-paperairplane"></i>
+                      </a>
+                    </div>
+                    <div class="interest-item__chips c-flex">
+                      <a href="#" class="c-chips--sm c-btn-outline--primary"
+                        >더 보여줘</a
+                      >
+                      <a href="#" class="c-chips--sm c-btn-outline--primary">
+                        ‘메가스터디’ 강의 추천해줘
+                      </a>
+                      <a href="#" class="c-chips--sm c-btn-outline--primary"
+                        >전문 강좌 추천해줘</a
+                      ><!--// 23.07.05 수정 -->
+                    </div>
+                    <div class="interest-item__chips c-flex">
+                      <!-- 23.07.05 수정 -->
+                      <a href="#" class="c-chips--sm c-btn-outline--primary"
+                        >인기순으로 보여줘</a
+                      >
+                      <a href="#" class="c-chips--sm c-btn-outline--primary"
+                        >최신순으로 보여줘</a
+                      >
+                      <a href="#" class="c-chips--sm c-btn-outline--primary"
+                        >관련이미지로 찾아 볼래</a
+                      >
+                      <a href="#" class="c-chips--sm c-btn-outline--primary"
+                        >관심분야 선택해볼래</a
+                      >
+                      <a href="#" class="c-chips--sm c-btn-primary">
+                        처음으로
+                        <i class="ico ico-paperairplane"></i>
+                      </a>
+                      <!--// 23.07.05 수정 -->
+                    </div>
+                  </div>
+                  <div class="interest-item__chips c-flex c-message">
+                    <a href="#" class="c-chips--sm c-btn-outline--primary">
+                      더 보여줘
+                    </a>
+                    <a href="#" class="c-chips--sm c-btn-primary">
+                      처음으로
+                      <i class="ico ico-paperairplane"></i>
+                    </a>
+                    <div class="interest-item__message c-form-group">
+                      <label class="c-form-label c-dpN"
+                        >채팅 텍스트 입력창</label
+                      >
+                      <input
+                        class="c-form-control"
+                        value=""
+                        title="채팅 텍스트 입력창"
+                        placeholder="텍스트를 입력해주세요"
+                      />
+                      <button class="c-btn c-btn-sm c-btn-radius c-btn-primary">
+                        전송
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

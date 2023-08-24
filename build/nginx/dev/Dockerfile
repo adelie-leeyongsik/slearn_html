@@ -1,0 +1,18 @@
+FROM nginx:latest
+
+
+WORKDIR /app
+COPY . .
+
+COPY ./build/nginx/dev/nginx.conf /etc/nginx/nginx.conf
+
+# mkdir
+RUN mkdir -p /etc/nginx/ssl
+
+# ssl copy
+COPY ./build/nginx/dev/cert/Wildcard.eseoul.go.kr_pem.pem /etc/nginx/ssl/Wildcard.eseoul.go.kr_pem.pem
+COPY ./build/nginx/dev/cert/KeyFile_Wildcard.eseoul.go.kr_pem.key /etc/nginx/ssl/KeyFile_Wildcard.eseoul.go.kr_pem.key
+COPY ./build/nginx/dev/cert/password.txt /etc/nginx/ssl/password.txt
+
+CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 443

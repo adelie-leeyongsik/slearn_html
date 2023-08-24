@@ -1,0 +1,62 @@
+<script setup></script>
+
+<template>
+  <div class="introduction-service__img">
+    <img src="@img/pic-introduction-service.svg" alt="이미지" />
+  </div>
+  <div class="introduction-service">
+    <div class="introduction-service__info c-bg-gray">
+      <div class="introduction-service__head">Q.</div>
+      <div class="introduction-service__body">
+        <div class="c-text-title-lg">멘토는 어떤분인가요?</div>
+        <div class="c-text-title-sub">
+          서울시는 지식과 경험을 갖춘 우수한 대학(원)생을 대상으로 멘토단을
+          구성하고 있습니다. (전국 소재 대학에서 선발)
+        </div>
+      </div>
+    </div>
+    <div class="introduction-service__info">
+      <div class="introduction-service__head">Q.</div>
+      <div class="introduction-service__body">
+        <div class="c-text-title-lg">멘토링의 내용은 무엇인가요?</div>
+        <div class="c-text-title-sub">
+          멘토링을 통해 멘토와 함께 멘티의 학습계획 수립 후 학습관리·상담 등을
+          진행하게 됩니다.<br />
+          '서울런 멘토링'은 학습자(멘티)가 사전에 신청한 정보를 활용하여
+          대학(원)생 멘토를 매칭하고,
+          <strong class="c-text-blue">
+            학습사이트의 강의 콘텐츠 등을 활용하여 학습을 잘하고 있는지
+            확인·관리하는 서비스
+          </strong>
+          입니다.<br />
+          ※ 개인 과외교습은 제공하지 않습니다.
+        </div>
+      </div>
+    </div>
+    <div class="introduction-service__info">
+      <div class="introduction-service__head">Q.</div>
+      <div class="introduction-service__body">
+        <div class="c-text-title-lg">멘토 매칭은 어떻게 되나요?</div>
+        <div class="c-text-title-sub">
+          서울런 가입 및 멘토링 신청시 입력한 멘토링 방식, 희망과목, 학교급 등
+          데이터를 기반으로 멘토의 지도 가능한 멘토링 방식, 과목, 학교급 등을
+          고려하여 최적의 멘토를 매칭하여 진행하게 됩니다.
+        </div>
+      </div>
+    </div>
+    <div class="introduction-service__info c-bg-gray">
+      <div class="introduction-service__head">Q.</div>
+      <div class="introduction-service__body">
+        <div class="c-text-title-lg">멘토링은 어떻게 진행되나요?</div>
+        <div class="c-text-title-sub">
+          온·오프라인 공통으로 서울런 강좌 및 전용 멘토가 지원되며, 멘토는
+          멘티와 함께 학습 목표를 설정하고, 진도체크, 질의응답, 상담 등의
+          서비스를 제공합니다.온라인 멘토링의 경우 화상강의 플랫폼을 활용하여 주
+          1회 1시간 또는 주 2회 30분을 선택하여 약속된 시간에 진행되며, 오프라인
+          멘토링의 경우 주1회 1시간 약속된 시간에 스터디카페, 청소년센터 등
+          지정된 장소에서 진행됩니다.
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

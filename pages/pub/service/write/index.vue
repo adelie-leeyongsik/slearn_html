@@ -1,0 +1,90 @@
+<script setup>
+definePageMeta({
+  layout: "service",
+});
+</script>
+<template>
+  <div class="service">
+    <PubBreadCrumbs />
+    <div class="service-write">
+      <div class="c-text-title-lg c-text-center">1:1 문의</div>
+      <p class="c-text-title-sub">
+        해당 메뉴에 대한 자세한 안내 문구 영역입니다. <br />
+        확인 부탁드립니다.감사합니다.
+      </p>
+      <div class="service__body">
+        <div class="c-form-group">
+          <div class="c-form-label">카테고리</div>
+          <select title="카테고리 선택" class="c-form-control">
+            <option value="">선택하세요</option>
+          </select>
+        </div>
+        <div class="c-form-group">
+          <label for="title" class="c-form-label">제목</label>
+          <input
+            type="text"
+            class="c-form-control"
+            placeholder="제목을 입력해주세요."
+            id="title"
+          />
+        </div>
+        <div class="c-form-group">
+          <label for="contents" class="c-form-label">내용</label>
+          <textarea
+            class="c-form-control"
+            placeholder="내용을 입력해주세요."
+            id="contents"
+          ></textarea>
+        </div>
+        <div class="c-form-group">
+          <!-- 2130725 웹접근성 for="file 로 변경" -->
+          <label for="file" class="c-form-label">파일 첨부</label>
+          <div class="c-input-group">
+            <!-- 웹접근성 title 추가 -->
+            <input
+              id="file"
+              class="c-form-control"
+              type="text"
+              placeholder="파일 첨부해주세요."
+              title="파일 첨부해주세요."
+            />
+            <!--// 웹접근성 title 추가 -->
+            <button class="c-btn c-btn-sm c-btn-blue">파일 찾기</button>
+          </div>
+          <div class="c-text-caution">
+            doc, docx, ppt, pptx, xls, xlsx, fdp, gif, jpg, jpeg, png, bmp, mov,
+            <br />
+            mp4, avi, zip 형식으로 최대 10MB 첨부 가능
+          </div>
+          <div class="c-form-file">
+            <a href="">김철수_첨부파일 01.pdf</a>
+            <button>
+              <i class="ico ico-delete">삭제</i>
+            </button>
+          </div>
+          <div class="c-form-file">
+            <a href=""
+              >김철수_첨부파일김철수_첨부파일김철수_첨부파일김철수_첨부파일김철수_첨부파일김철수_첨부파일김철수_첨부파일김철수_첨부파일
+              01.pdf</a
+            >
+            <button>
+              <i class="ico ico-delete">삭제</i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mypage__foot">
+        <div class="c-btn-group">
+          <button class="c-btn c-btn-lg c-btn-blue">취소하기</button>
+          <button class="c-btn c-btn-lg c-btn-inactive">등록하기</button>
+        </div>
+      </div>
+      <div class="mypage__foot">
+        <div class="c-btn-group">
+          <button class="c-btn c-btn-lg c-btn-blue">취소하기</button>
+          <button class="c-btn c-btn-lg c-btn-danger">등록하기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
